@@ -30,7 +30,7 @@ app.use(express.static(publicDir));
 
 app.get('/', (req, res) => {
 
-  
+res.send("hello!");
 });
 
 app.post('/user', (req, res) => {
